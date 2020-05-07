@@ -1,6 +1,18 @@
-@media (max-width: 900px) {
+@media (max-width: 800px) {
+  .placeholder-main-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .placeholder-main-section .map {
+    height: 30vh;
+    width: auto;
+    margin-top: 20px;
+  }
   h1 {
-    font-size: 4em;
+    font-size: 2em;
+  }
+  .main-header {
+    margin-top: 2vh;
   }
 }
 @media (min-width: 2500px) {
@@ -10,6 +22,7 @@
 }
 .text-info {
   margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 .text-info ul {
   display: flex;
